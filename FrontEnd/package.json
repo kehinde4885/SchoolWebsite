@@ -1,0 +1,13 @@
+{
+  "name": "stylegenerator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "generate": "tailwindcss -i style.css -o output.css",
+    "genpersist": "tailwindcss -i style.css -o output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
