@@ -1,5 +1,8 @@
-
 {
-  "plugins": ["prettier-plugin-tailwindcss"],
-  "tailwindConfig": "../tailwind.config.js"
+  "arrowParens": "always",
+  "bracketSameLine": true,
+  "trailingComma": "es5",
+  "printWidth": 100,
+  "tailwindConfig": "../tailwind.config.js",
+  "plugins": ["prettier-plugin-tailwindcss"]
 }

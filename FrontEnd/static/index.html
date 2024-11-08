@@ -1,15 +1,117 @@
 <!doctype html>
-<html lang="en">
+<html class="bg-red-900" lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>School</title>
+    <title>The University of Technology</title>
   </head>
-  <body>
-    <header></header>
+  <body class="layout_grid relative bg-neutral-50 text-neutral-900">
+    <header class="full-width absolute top-5 flex w-full">
+      <div
+        class="mx-auto flex h-14 w-11/12 items-center justify-end rounded-lg bg-neutral-400/[0.4] px-6 py-6">
+        <button class="text-white">Login</button>
+      </div>
+    </header>
 
-    <p class="text-3xl bg-black px-10 text-white">Baddo</p>
+    <section
+      class="hero full-width flex h-[80vh] bg-[url('/hero1.jpg')] bg-cover bg-center bg-no-repeat pb-28 pl-6">
+      <h1 class="mt-auto max-w-[11ch] font-sans text-5xl font-normal leading-tight text-neutral-50">
+        The <br />
+        University of Technology
+      </h1>
+    </section>
+
+    <section class="content mt-24">
+      <h2 class="text-2xl leading-tight">
+        Tools to make your Education worthwhile. <br />
+        Labs,Gyms and more.
+      </h2>
+
+      <!-- Take care of this fixed height with an outer grid -->
+      <!-- setting an aspect ratio works???? ASPECT Video?????? -->
+      <div class="mt-11 flex aspect-video gap-10 overflow-x-scroll">
+        <div class="aspect-[0.726] grow rounded-lg bg-yellow-950">
+          <img class="h-full w-full" src="/tool.jpg" alt="image of a Gymnasium" />
+        </div>
+
+        <div class="aspect-[0.726] grow rounded-lg bg-yellow-950">
+          <img class="h-full w-full" src="/tool2.jpg" alt="image of a Gymnasium" />
+        </div>
+        <div class="aspect-[0.726] grow rounded-lg bg-yellow-950">
+          <img class="h-full w-full" src="/tool3.jpg" alt="image of a Gymnasium" />
+        </div>
+        <div class="aspect-[0.726] grow rounded-lg bg-yellow-950">
+          <img class="h-full w-full" src="/tool4.jpg" alt="image of a Gymnasium" />
+        </div>
+        <div class="aspect-[0.726] grow rounded-lg bg-yellow-950">
+          <img class="h-full w-full" src="/tool5.jpg" alt="image of a Gymnasium" />
+        </div>
+      </div>
+    </section>
+
+    <section class="content mt-60">
+      <h2 class="text-2xl leading-tight text-neutral-950">Across Seven Departments and Colleges</h2>
+
+      <div
+        class="mt-20 flex aspect-video items-end rounded-lg bg-yellow-950 bg-[url('/school1.jpg')] bg-cover bg-no-repeat pb-14 pl-14">
+        <h3 class="text-2xl leading-tight text-neutral-50">
+          School of <br />
+          Engineering
+        </h3>
+      </div>
+
+      <div class="mx-auto mt-7 flex w-max gap-10">
+        <button>
+          <img src="/leftIcon.svg" alt="" />
+        </button>
+        <button>
+          <img src="/rightIcon.svg" alt="" />
+        </button>
+      </div>
+    </section>
+
+    <section class="content mt-40 text-center">
+      <p class="text-center font-serif text-2xl leading-tight">
+        Take Charge of Your <br />
+        Future!
+      </p>
+
+      <button class="mt-14 bg-blue-900 p-7 text-3xl text-neutral-50">Enroll Now</button>
+    </section>
+
+    <section class="content mt-80">
+      <h2 class="text-2xl text-neutral-900">About Us</h2>
+
+      <div class="mt-20 grid aspect-[19/9] grid-cols-2 grid-rows-[max-content] gap-x-16 gap-y-10">
+        <div class="row-span-2 bg-amber-900 object-cover">
+          <img class="h-full w-full object-cover" src="/about.jpg" alt="image of new Studio" />
+        </div>
+        <h4 class="max-w-[20ch] overflow-hidden text-2xl leading-tight">
+          University of Technology Unveils State-of-the-Art Facilities to Enhance Student Learning
+          Experience.
+        </h4>
+        <p class="max-w-[48ch] font-serif text-base">
+          The University of Technology proudly announces the opening of its latest facilities,
+          designed to provide students with cutting-edge resources for a dynamic learning
+          experience. The new amenities include a fully equipped innovation lab, an expansive
+          library with digital media resources, and a state-of-the-art auditorium. These additions
+          underscore the university's commitment ...
+        </p>
+      </div>
+
+      <div class="mx-auto mt-14 flex w-max gap-3">
+        <button class="aspect-square w-5 rounded-full bg-neutral-300"></button>
+        <button class="aspect-square w-5 rounded-full bg-yellow-300"></button>
+        <button class="aspect-square w-5 rounded-full bg-neutral-300"></button>
+      </div>
+    </section>
+
+    <footer
+      class="full-width mt-56 flex aspect-[24/9] flex-col items-start justify-between bg-neutral-500 px-12 pb-10 pt-12">
+      <button class="bg-blue-900 p-7 text-lg text-neutral-50">Register</button>
+      <p class="text-lg text-neutral-950">Founded Oct.2024</p>
+    </footer>
 
     <script type="module" src="/main.js"></script>
   </body>
