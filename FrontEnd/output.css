@@ -1,4 +1,8 @@
-*, ::before, ::after {
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Sanchez:ital@0;1&display=swap');
+
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -52,7 +56,7 @@
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -124,7 +128,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -154,7 +158,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lexend Deca", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -554,8 +558,395 @@ video {
   display: none;
 }
 
-.text-9xl {
-  font-size: 8rem;
+.fixed{
+  position: fixed;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.top-5{
+  top: 1.25rem;
+}
+
+.row-span-2{
+  grid-row: span 2 / span 2;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-11{
+  margin-top: 2.75rem;
+}
+
+.mt-14{
+  margin-top: 3.5rem;
+}
+
+.mt-20{
+  margin-top: 5rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
+}
+
+.mt-40{
+  margin-top: 10rem;
+}
+
+.mt-56{
+  margin-top: 14rem;
+}
+
+.mt-60{
+  margin-top: 15rem;
+}
+
+.mt-7{
+  margin-top: 1.75rem;
+}
+
+.mt-80{
+  margin-top: 20rem;
+}
+
+.mt-auto{
+  margin-top: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+.aspect-\[0\.726\]{
+  aspect-ratio: 0.726;
+}
+
+.aspect-\[19\/9\]{
+  aspect-ratio: 19/9;
+}
+
+.aspect-\[24\/9\]{
+  aspect-ratio: 24/9;
+}
+
+.aspect-square{
+  aspect-ratio: 1 / 1;
+}
+
+.aspect-video{
+  aspect-ratio: 16 / 9;
+}
+
+.h-14{
+  height: 3.5rem;
+}
+
+.h-\[80vh\]{
+  height: 80vh;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.w-11\/12{
+  width: 91.666667%;
+}
+
+.w-5{
+  width: 1.25rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.w-max{
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.max-w-\[11ch\]{
+  max-width: 11ch;
+}
+
+.max-w-\[20ch\]{
+  max-width: 20ch;
+}
+
+.max-w-\[48ch\]{
+  max-width: 48ch;
+}
+
+.grow{
+  flex-grow: 1;
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-\[max-content\]{
+  grid-template-rows: max-content;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-start{
+  align-items: flex-start;
+}
+
+.items-end{
+  align-items: flex-end;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
+}
+
+.gap-x-16{
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+}
+
+.gap-y-10{
+  row-gap: 2.5rem;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.overflow-x-scroll{
+  overflow-x: scroll;
+}
+
+.rounded-full{
+  border-radius: 9999px;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
+.bg-amber-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(120 53 15 / var(--tw-bg-opacity));
+}
+
+.bg-blue-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+}
+
+.bg-neutral-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 212 212 / var(--tw-bg-opacity));
+}
+
+.bg-neutral-400\/\[0\.4\]{
+  background-color: rgb(163 163 163 / 0.4);
+}
+
+.bg-neutral-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
+}
+
+.bg-neutral-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(115 115 115 / var(--tw-bg-opacity));
+}
+
+.bg-red-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-950{
+  --tw-bg-opacity: 1;
+  background-color: rgb(66 32 6 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\/hero1\.jpg\'\)\]{
+  background-image: url('/hero1.jpg');
+}
+
+.bg-\[url\(\'\/school1\.jpg\'\)\]{
+  background-image: url('/school1.jpg');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.p-7{
+  padding: 1.75rem;
+}
+
+.px-12{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.pb-10{
+  padding-bottom: 2.5rem;
+}
+
+.pb-14{
+  padding-bottom: 3.5rem;
+}
+
+.pb-28{
+  padding-bottom: 7rem;
+}
+
+.pl-14{
+  padding-left: 3.5rem;
+}
+
+.pl-6{
+  padding-left: 1.5rem;
+}
+
+.pt-12{
+  padding-top: 3rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-sans{
+  font-family: "Lexend Deca", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-serif{
+  font-family: Sanchez, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-2xl{
+  font-size: 2.375rem;
+  line-height: 2rem;
+}
+
+.text-3xl{
+  font-size: 3.1875rem;
+  line-height: 2.25rem;
+}
+
+.text-5xl{
+  font-size: 5.625rem;
   line-height: 1;
 }
 
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg{
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+}
+
+.font-normal{
+  font-weight: 400;
+}
+
+.leading-tight{
+  line-height: 1.25;
+}
+
+.text-neutral-50{
+  --tw-text-opacity: 1;
+  color: rgb(250 250 250 / var(--tw-text-opacity));
+}
+
+.text-neutral-900{
+  --tw-text-opacity: 1;
+  color: rgb(23 23 23 / var(--tw-text-opacity));
+}
+
+.text-neutral-950{
+  --tw-text-opacity: 1;
+  color: rgb(10 10 10 / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.layout_grid {
+  display: grid;
+  grid-template-columns: [full-width-start] 110px [content-start] 1fr [content-end] 110px [full-width-end];
+}
+
+.content{
+  grid-column: content;
+}
+
+.full-width {
+  grid-column: full-width;
+}
